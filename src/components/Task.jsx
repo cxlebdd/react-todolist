@@ -24,10 +24,10 @@ const Task = ({ task, onDelete, onEdit }) => {
                 <span>{task}</span>
             )}
             <div>
-                <button onClick={handleEdit} className="text-yellow-500 ml-2">
+                <button onClick={handleEdit} className="bg-yellow-500 p-1 text-white ml-2 hover:bg-yellow-700">
                     {isEditing ? 'Guardar' : 'Editar'}
                 </button>
-                <button onClick={() => onDelete(task)} className="text-red-500 ml-2">
+                <button onClick={() => onDelete(task)} className="bg-red-500 p-1 hover:bg-red-700 text-white ml-2">
                     Eliminar
                 </button>
             </div>

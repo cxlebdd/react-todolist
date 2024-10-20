@@ -34,7 +34,7 @@ function App() {
                   className="border p-2 mr-2"
                   placeholder="Nueva tarea"
               />
-              <button type="submit" className="bg-blue-500 text-white p-2">Agregar</button>
+              <button type="submit" className="bg-blue-500 text-white p-2 hover:bg-blue-700">Agregar</button>
           </form>
 
           {/* Componente TaskList */}
